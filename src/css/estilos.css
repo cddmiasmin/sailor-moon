@@ -109,7 +109,7 @@ main{
     border-radius: 5px;
 }
 
-.selecao-de-personagens .lista-de-personagens .personagem.selecionado{
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-1-selecionado{
     border: 2px solid var(--cor-azul-media);
     animation: c-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
@@ -145,7 +145,7 @@ main{
     animation-direction: alternate;
 }
 
-.selecao-de-personagens .lista-de-personagens .personagem.selecionado .tag{
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-1-selecionado .tag{
     display: block;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;

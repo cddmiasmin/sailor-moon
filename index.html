@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escolha seu personagem - MapaDev Week</title>
+    <title>Sailor Moon Fight</title>
     <link rel="icon" type="imagem/png" href="https://icongr.am/devicon/github-original.svg?size=128&color=8b0000" />
 
     <link rel="stylesheet" href="./src/css/variaveis.css" />
@@ -33,56 +33,56 @@
             </div>
 
             <ul class="lista-de-personagens">
-                <li class="personagem selecionado" id="moon" data-name="Sailor Moon">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/moon.png" alt="Personagem Sailor Moon">
+                <li class="personagem jogador-1-selecionado" id="moon" data-name="Sailor Moon">
+                    <span class="tag" id="player-moon">1P</span>
+                    <img src="./src/imagens/moon.png" alt="Personagem Sailor Moon" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="mercury" data-name="Sailor Mercury">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/mercury.jpg" alt="Personagem Sailor Mercury">
+                    <span class="tag" id="player-mercury">1P</span>
+                    <img src="./src/imagens/mercury.jpg" alt="Personagem Sailor Mercury" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="mars" data-name="Sailor Mars">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/mars.png" alt="Personagem Sailor Mars">
+                    <span class="tag" id="player-mars">1P</span>
+                    <img src="./src/imagens/mars.png" alt="Personagem Sailor Mars" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="jupter" data-name="Sailor Jupiter">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/jupter.jpg" alt="Personagem Sailor Jupiter">
+                    <span class="tag" id="player-jupter">1P</span>
+                    <img src="./src/imagens/jupter.jpg" alt="Personagem Sailor Jupiter" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="venus" data-name="Sailor Venus">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/venus.jpg" alt="Personagem Sailor Venus">
+                    <span class="tag" id="player-venus">1P</span>
+                    <img src="./src/imagens/venus.jpg" alt="Personagem Sailor Venus" onclick="ConteudoRecebeuClick()" >
                 </li>
 
                 <li class="personagem jogador-2-selecionado" id="tuxedo-kamen" data-name="Tuxedo Kamen">
-                    <span class="tag">2P</span>
-                    <img src="./src/imagens/tuxedo-kamen.jpg" alt="Personagem Tuxedo Kamen">
+                    <span class="tag" id="player-tuxedo-kamen">2P</span>
+                    <img src="./src/imagens/tuxedo-kamen.jpg" alt="Personagem Tuxedo Kamen" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="saturn" data-name="Sailor Saturn">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/saturn.jpg" alt="Personagem Sailor Saturn">
+                    <span class="tag" id="player-saturn">1P</span>
+                    <img src="./src/imagens/saturn.jpg" alt="Personagem Sailor Saturn" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="uranus" data-name="Sailor Uranus">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/uranus.jpg" alt="Personagem Sailor Uranus">
+                    <span class="tag" id="player-uranus">1P</span>
+                    <img src="./src/imagens/uranus.jpg" alt="Personagem Sailor Uranus" onclick="ConteudoRecebeuClick()">
                 </li>
 
                 <li class="personagem" id="neptune" data-name="Sailor Neptune">
-                    <span class="tag">1P</span>
-                    <img src="./src/imagens/neptune.jpg" alt="Personagem Sailor Neptune">
+                    <span class="tag" id="player-neptune">1P</span>
+                    <img src="./src/imagens/neptune.jpg" alt="Personagem Sailor Neptune" onclick="ConteudoRecebeuClick()">
                 </li>
             </ul>
 
             <div class="personagem-grande personagem-jogador-2">
                 <img src="./src/imagens/big-tuxedo-kamen.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
                 <div class="nome">
-                    <h2>Tuxedo Kamen</h2>
+                    <h2 id="nome-jogador-2">Tuxedo Kamen</h2>
                 </div>
             </div>
         </div>
